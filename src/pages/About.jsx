@@ -1,22 +1,23 @@
-import { BsGithub } from "react-icons/bs";
+import '../styles/About.css'
 
 export default function About() {
-    return (
-      <div>
-        <h1>About Me</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-          velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-          ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-          non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-          ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-          rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-          tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-          porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-          vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus.
-        </p>
-        <BsGithub size={40} />
+  return (
+    <div className="container my-5">
+      <h1 className="text-center mb-4">About Me</h1>
+      <div className="row">
+        <div className="col-lg-8 mx-auto about-text">
+          <p className="text-justify">
+            Greetings!<br>
+            </br><br></br>
+            Welcome to my portfolio. I am a former US Army Officer and career defense professional who is trying to make a career change into Software Development. I am currently completing a three month Full Stack Software Development boot camp through SMU in Dallas, TX where I am gaining experience in many Full Stack technologies.<br></br><br></br>
+
+            Most of my experience in the defense industry has been in finance, manufacturing, and operations management. I have experience in both leading teams and managing complex programs. I am hoping that leveraging my new skills, I can reenter the defense world as a Software Engineer.<br></br><br></br>
+
+            This career change is both exciting, and terrifying. However, through completing this course, I believe I have a solid foundation from which to build a new career from. Please feel free to click on the portfolio page at the link above to see some of the cool projects I have created as part of this program, and stay tuned for upcoming additions as I continue to learn and add to my portfolio.
+          </p>
+        </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
+

@@ -1,0 +1,28 @@
+h1 {
+    color: #e0785f; /* Accent color */
+    font-family: 'Arial', sans-serif; /* Consider a different font */
+    font-weight: 700; /* Bold font weight */
+}
+
+.about-text {
+    background-color: #f4f1de; 
+    padding: 20px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+p {
+    line-height: 1.6; 
+    font-size: 1.1rem; 
+}
+
+p a:hover {
+    text-decoration: underline; 
+}
+
+
+@media (min-width: 992px) {
+    .about-text {
+        padding: 30px; 
+    }
+}
