@@ -1,7 +1,9 @@
+import { BsGithub } from "react-icons/bs";
+
 export default function About() {
     return (
       <div>
-        <h1>Home Page</h1>
+        <h1>About Me</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
           velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
@@ -14,6 +16,7 @@ export default function About() {
           vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
           fames ac ante ipsum primis in faucibus.
         </p>
+        <BsGithub size={40} />
       </div>
     );
   }

@@ -1,0 +1,19 @@
+.footer {
+    background-color: #3d405B;
+    border-top: 3px solid #e0785f;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    margin: 0 40px;
+    color: #f4f1de;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #e0785f;
+    /* Link hover color */
+}
