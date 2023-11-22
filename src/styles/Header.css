@@ -1,0 +1,16 @@
+.header {
+    height: 150px;
+}
+
+.header h1 {
+    background-image: url(../images/headerImage.png);
+    background-size: 100%;
+    border-bottom: 3px solid #8FAD88;
+    height: 150px;
+    margin: 0;
+    padding-top: 45px;
+    padding-left: 10px;
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+}

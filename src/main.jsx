@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,25 +14,25 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <Error />,
-    children: [
-      {
-        index: true,
-        element: <About />,
-      },
-      {
-        path: '/Contact',
-        element: <Contact />,
-      },
-      {
-        path: '/portfolio',
-        element: <Portfolio />,
-      },
-      {
-        path: '/resume',
-        element: <Resume />,
-      },
-    ],
+    // errorElement: <Error />,
+    // children: [
+    //   {
+    //     index: true,
+    //     element: <About />,
+    //   },
+    //   {
+    //     path: '/Contact',
+    //     element: <Contact />,
+    //   },
+    //   {
+    //     path: '/portfolio',
+    //     element: <Portfolio />,
+    //   },
+    //   {
+    //     path: '/resume',
+    //     element: <Resume />,
+    //   },
+    // ],
   },
 ]);
 
