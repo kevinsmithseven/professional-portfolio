@@ -10,7 +10,7 @@ function App() {
       display: 'flex',        
       flexDirection: 'column', 
       minHeight: '100vh',      
-      backgroundColor: "antiquewhite"
+      backgroundColor: "#f4f1de"
     }}>
       <Header />
       <Navbar />

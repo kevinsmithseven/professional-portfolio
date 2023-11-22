@@ -17,3 +17,21 @@
     color: #e0785f;
     /* Link hover color */
 }
+
+.footer a svg {
+    width: 85px;
+    /* Width for the SVG icon */
+    height: 85px;
+    /* Height for the SVG icon */
+}
+
+@media screen and (max-width: 768px) {
+    .footer a svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer a {
+        margin: 0 20px; /* Decreased margin for mobile screens */
+    }
+}
