@@ -5,43 +5,44 @@
 }
 
 .contact-page h1 {
-    color: #e0785f; /* Dark color for the header */
+    color: #e0785f; 
     text-align: center;
-    margin-bottom: 20px; /* Spacing below the header */
+    margin-bottom: 20px; 
 }
 
 /* Form Component Styles */
 .container {
-    background-color: #fff; /* White background for the form */
+    background-color: #d8d5c2; 
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-    max-width: 500px; /* Limit the width of the form */
-    margin: auto; /* Center the form in the page */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    max-width: 500px; 
+    margin: auto; 
 }
 
 .form input, .form button {
-    width: 100%; /* Full width */
+    width: 100%; 
     padding: 10px;
-    margin-bottom: 10px; /* Spacing between fields */
-    border: 1px solid #ddd; /* Subtle border */
-    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    background-color: #f4f1de;
 }
 
 .form button {
-    background-color: #81b29a; /* Accent color */
+    background-color: #81b29a; 
     color: white;
     border: none;
     cursor: pointer;
 }
 
 .form button:hover {
-    background-color: #f2cc8f; /* Darker on hover */
+    background-color: #f2cc8f; 
     color: #3d405B;
 }
 
 .error-text {
-    color: red; /* Error message in red */
+    color: red; 
     text-align: center;
     margin-top: 10px;
 }

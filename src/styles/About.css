@@ -5,7 +5,7 @@ h1 {
 }
 
 .about-text {
-    background-color: #f4f1de; /* Light background for the text */
+    background-color: #d8d5c2; /* Light background for the text */
     padding: 20px;
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
@@ -24,6 +24,15 @@ p a {
 
 p a:hover {
     text-decoration: underline; /* Adds underline on hover */
+}
+
+.profile-pic {
+    width: 100%; /* Responsive width */
+    max-width: 300px; /* Maximum width */
+    height: auto; /* Maintain aspect ratio */
+    /* border-radius: 50%; Circular image */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: adds a shadow */
+    margin-bottom: 20px; /* Spacing below the image */
 }
 
 /* Responsive design adjustments */

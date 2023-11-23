@@ -1,11 +1,15 @@
 import '../styles/About.css'
+import profilePic from '../images/IMG_0713.jpg';
 
 export default function About() {
   return (
     <div className="my-5">
       <h1 className="text-center mb-4">About Me</h1>
-      <div className="row">
-        <div className="col-lg-8 mx-auto about-text">
+      <div className="row justify-content-center">
+        <div className="col-12 col-md-6 text-center">
+          <img src={profilePic} alt="Picture of me" className="profile-pic mb-4" />
+        </div>
+        <div className="col-12 col-lg-8 about-text">
           <p className="text-justify">
             Greetings!<br>
             </br><br></br>
