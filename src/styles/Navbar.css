@@ -29,9 +29,10 @@
     height: 100%;
     padding: .25rem;
     text-decoration: none;
-    color: whitesmoke;
+    color: #f4f1de;
     font-size: 30px;
     text-shadow: 1px 1px #3d405b;
+
 }
 
 .nav a:active {
@@ -39,7 +40,8 @@
 }
 
 .nav a:hover {
-    background-color: #f2cc8f;
+    color: #f2cc8f;
+    background-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
@@ -55,6 +57,6 @@
 
     .nav a {
         text-align: center;
-        padding: 10px; 
+        padding: 10px;
     }
 }
