@@ -1,5 +1,5 @@
 import projects from '../utils/projects.js';
-import Project from '../components/Project.JSX'
+import Project from '../components/Project.jsx'
 import '../styles/Portfolio.css'
 
 
