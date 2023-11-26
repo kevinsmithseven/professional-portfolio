@@ -36,6 +36,7 @@ const projects = [
     },
     {
         id: 5,
+        name: 'Work Day Scheduler',
         image: WorkdayScheduler,
         repoLink: 'https://github.com/kevinsmithseven/work-day-scheduler',
         siteLink: 'https://kevinsmithseven.github.io/work-day-scheduler/'
