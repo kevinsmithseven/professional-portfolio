@@ -1,43 +1,42 @@
 h1 {
-    color: #e0785f; /* Accent color */
-    font-family: 'Arial', sans-serif; /* Consider a different font */
-    font-weight: 700; /* Bold font weight */
+    color: #e0785f; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: 700; 
 }
 
 .about-text {
-    background-color: #d8d5c2; /* Light background for the text */
+    background-color: #d8d5c2; 
     padding: 20px;
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 }
 
 p {
-    line-height: 1.6; /* Improve readability */
-    font-size: 1.1rem; /* Slightly larger font size */
+    line-height: 1.6; 
+    font-size: 1.1rem; 
 }
 
-/* Style for links inside the paragraph if any */
+
 p a {
     color: #e0785f;
-    text-decoration: none; /* Removes underline */
+    text-decoration: none; 
 }
 
 p a:hover {
-    text-decoration: underline; /* Adds underline on hover */
+    text-decoration: underline; 
 }
 
 .profile-pic {
-    width: 100%; /* Responsive width */
-    max-width: 300px; /* Maximum width */
-    height: auto; /* Maintain aspect ratio */
-    /* border-radius: 50%; Circular image */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: adds a shadow */
-    margin-bottom: 20px; /* Spacing below the image */
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    margin-bottom: 20px; 
 }
 
-/* Responsive design adjustments */
+
 @media (min-width: 992px) {
     .about-text {
-        padding: 30px; /* More padding on larger screens */
+        padding: 30px; 
     }
 }
