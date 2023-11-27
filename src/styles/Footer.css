@@ -15,14 +15,12 @@
 
 .footer a:hover {
     color: #f2cc8f;
-    /* Link hover color */
+    transform: scale(1.2);
 }
 
 .footer a svg {
     width: 70px;
-    /* Width for the SVG icon */
     height: 70px;
-    /* Height for the SVG icon */
 }
 
 @media screen and (max-width: 768px) {
@@ -32,6 +30,6 @@
     }
 
     .footer a {
-        margin: 0 20px; /* Decreased margin for mobile screens */
+        margin: 0 20px;
     }
 }
